@@ -1,4 +1,5 @@
 const sequelize = require("../utils/connection");
+require("../models/City")
 
 const testMigrate = async () => {
   try {
